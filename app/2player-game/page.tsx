@@ -211,9 +211,9 @@ export default function TwoPlayerGame() {
         setGameMode(parsedSettings.gameMode || 'timed');
 
         switch (parsedSettings.stadium) {
-          case '/assets/stadium/300.png': setBackgroundImage('/assets/stadium/303.svg'); break;
-          case '/assets/stadium/301.png': setBackgroundImage('/assets/stadium/304.svg'); break;
-          case '/assets/stadium/302.png': setBackgroundImage('/assets/stadium/305.svg'); break;
+          case '/assets/stadium/300.png': setBackgroundImage('/assets/stadium/303.png'); break;
+          case '/assets/stadium/301.png': setBackgroundImage('/assets/stadium/304.png'); break;
+          case '/assets/stadium/302.png': setBackgroundImage('/assets/stadium/305.png'); break;
         }
       }
       setIsInitialized(true);
